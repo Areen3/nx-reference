@@ -2,15 +2,15 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "../../dist/out-tsc",
-    "types": [],
-    "composite": true,
-    "declaration": true,
-    "sourceMap": true,
-    "declarationMap": true
+    "types": []
   },
   "files": ["src/main.ts", "src/polyfills.ts"],
   "include": ["../../libs/api-interfaces/**/*.ts", "src/**/*.ts"],
-  "exclude": ["**/*.spec.ts",  "src/test-setup.ts", "src/environments/environment.prod.ts"],
+  "exclude": [
+    "**/*.spec.ts",
+    "src/test-setup.ts",
+    "src/environments/environment.prod.ts"
+  ],
   "references": [
     {
       "path": "../../libs/api-interfaces"

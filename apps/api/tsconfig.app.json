@@ -4,11 +4,7 @@
     "outDir": "../../dist/out-tsc",
     "types": ["node"],
     "emitDecoratorMetadata": true,
-    "target": "es2015",
-    "composite": true,
-    "declaration": true,
-    "sourceMap": true,
-    "declarationMap": true
+    "target": "es2015"
   },
   "files": ["src/main.ts"],
   "include": ["../../libs/api-interfaces/**/*.ts", "src/**/*.ts"],

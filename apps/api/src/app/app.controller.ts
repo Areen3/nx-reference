@@ -11,4 +11,4 @@ export class AppController {
     return this.appService.getData();
   }
 }
-// kom 222
+
