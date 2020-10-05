@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.base.json",
+  "files": [],
+  "include": [],
+  "references": [
+    { "path": "apps/api" },
+    { "path": "apps/testref2" },
+    { "path": "apps/testref2-e2e" },
+    { "path": "libs/api-interfaces" }
+  ],
+}

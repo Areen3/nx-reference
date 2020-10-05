@@ -1,3 +1,4 @@
-export interface Message {
+export interface  MessageApi {
   message: string;
+  xxx: string;
 }
