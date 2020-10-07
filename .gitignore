@@ -7,6 +7,8 @@
 
 # dependencies
 /node_modules
+/apr/node_modules
+/apr/dist
 
 # IDEs and editors
 /.idea
